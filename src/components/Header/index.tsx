@@ -5,8 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-// Importujemy Twoje logo z pliku, który przesłałeś:
-import logoPoprawne from "src/assets/logo poprawne.svg";
+import logoPoprawne from "src/assets/logo poprawne.svg"; // Twoje logo
 
 const Header = () => {
   // Navbar toggle
@@ -32,11 +31,7 @@ const Header = () => {
   // Submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
   const handleSubmenu = (index) => {
-    if (openIndex === index) {
-      setOpenIndex(-1);
-    } else {
-      setOpenIndex(index);
-    }
+    setOpenIndex(openIndex === index ? -1 : index);
   };
 
   const usePathName = usePathname();
@@ -52,28 +47,33 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            <div className="w-60 max-w-full px-4 xl:mr-12">
+            {/* Usunięto w-60 i w-full, by logo nie rozciągało się */}
+            <div className="px-4 xl:mr-12 flex items-center">
               <Link
                 href="/"
-                className={`header-logo block w-full ${
+                className={`header-logo block ${
                   sticky ? "py-5 lg:py-2" : "py-8"
-                } `}
+                }`}
               >
+                {/* Logo w trybie jasnym */}
                 <Image
                   src={logoPoprawne}
                   alt="logo"
-                  width={140}
+                  width={30}
                   height={30}
                   unoptimized
-                  className="w-full dark:hidden"
+                  className="dark:hidden object-contain"
+                  style={{ width: "30px", height: "auto" }}
                 />
+                {/* Logo w trybie ciemnym */}
                 <Image
                   src={logoPoprawne}
                   alt="logo"
-                  width={140}
+                  width={30}
                   height={30}
                   unoptimized
-                  className="hidden w-full dark:block"
+                  className="hidden dark:block object-contain"
+                  style={{ width: "30px", height: "auto" }}
                 />
               </Link>
             </div>
@@ -146,10 +146,10 @@ const Header = () => {
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >
-                              {menuItem.submenu.map((submenuItem, index) => (
+                              {menuItem.submenu.map((submenuItem, idx) => (
                                 <Link
                                   href={submenuItem.path}
-                                  key={index}
+                                  key={idx}
                                   className="block rounded py-2.5 text-sm text-dark hover:text-primary dark:text-white/70 dark:hover:text-white lg:px-3"
                                 >
                                   {submenuItem.title}
@@ -163,26 +163,11 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
-                <Link
-                  href="/signin"
-                  className="hidden px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white md:block"
-                >
-                  Sign In
-                </Link>
-                <Link
-                  href="/signup"
-                  className="ease-in-up shadow-btn hover:shadow-btn-hover hidden rounded-sm bg-primary px-8 py-3 text-base font-medium text-white transition duration-300 hover:bg-opacity-90 md:block md:px-9 lg:px-6 xl:px-9"
-                >
-                  Sign Up
-                </Link>
-                <div>
+
                   <ThemeToggler />
                 </div>
               </div>
             </div>
-          </div>
-        </div>
       </header>
     </>
   );
