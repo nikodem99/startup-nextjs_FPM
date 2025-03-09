@@ -43,37 +43,34 @@ const Header = () => {
           sticky
             ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
             : "absolute bg-transparent"
-        }`}
+        } pb-4 md:pb-0`}
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
-            {/* Usunięto w-60 i w-full, by logo nie rozciągało się */}
             <div className="px-4 xl:mr-12 flex items-center">
               <Link
                 href="/"
-                className={`header-logo block ${
-                  sticky ? "py-5 lg:py-2" : "py-8"
-                }`}
+                className={`header-logo block ${sticky ? "py-5 lg:py-2" : "py-8"}`}
               >
                 {/* Logo w trybie jasnym */}
                 <Image
                   src={logoPoprawne}
                   alt="logo"
-                  width={30}
-                  height={30}
+                  width={115}
+                  height={115}
                   unoptimized
                   className="dark:hidden object-contain"
-                  style={{ width: "30px", height: "auto" }}
+                  style={{ width: "115px", height: "115px" }}
                 />
                 {/* Logo w trybie ciemnym */}
                 <Image
                   src={logoPoprawne}
                   alt="logo"
-                  width={30}
-                  height={30}
+                  width={115}
+                  height={115}
                   unoptimized
                   className="hidden dark:block object-contain"
-                  style={{ width: "30px", height: "auto" }}
+                  style={{ width: "115px", height: "115px" }}
                 />
               </Link>
             </div>
@@ -87,7 +84,7 @@ const Header = () => {
                 >
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
-                      navbarOpen ? " top-[7px] rotate-45" : ""
+                      navbarOpen ? "top-[7px] rotate-45" : ""
                     }`}
                   />
                   <span
@@ -97,7 +94,7 @@ const Header = () => {
                   />
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
-                      navbarOpen ? " top-[-8px] -rotate-45" : ""
+                      navbarOpen ? "top-[-8px] -rotate-45" : ""
                     }`}
                   />
                 </button>
@@ -163,7 +160,6 @@ const Header = () => {
                   </ul>
                 </nav>
               </div>
-
                   <ThemeToggler />
                 </div>
               </div>
