@@ -1,3 +1,4 @@
+import AboutSectionFive from "@/components/About/AboutSectionFive";
 import AboutSectionFour from "@/components/About/AboutSectionFour";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionThree from "@/components/About/AboutSectionThree";
@@ -19,7 +20,7 @@ const AboutPage = () => {
         pageName=""
         description=""
       />
-      <AboutSectionThree />
+      <AboutSectionFive/>
       <AboutSectionFour />
     </>
   );

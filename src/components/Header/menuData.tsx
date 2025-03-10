@@ -32,8 +32,8 @@ const menuData: Menu[] = [
       },
       {
         id: 42,
-        title: "Contact Page",
-        path: "/contact",
+        title: "Szkolenia",
+        path: "/courses",
         newTab: false,
       },
       {

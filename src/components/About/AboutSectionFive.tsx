@@ -9,7 +9,7 @@ const checkIcon = (
   </svg>
 );
 
-// Komponent listy
+// Pojedynczy element listy
 function List({ text }: { text: string }) {
   return (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
@@ -21,20 +21,21 @@ function List({ text }: { text: string }) {
   );
 }
 
-// Główny komponent strony
-export default function Page() {
+// Główny komponent AboutSectionFive
+export default function AboutSectionFive() {
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
+            {/* Lewa kolumna z tytułem i listą */}
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="O nas"
+                title="Pomoc prawna"
                 paragraph="Fundacja zapewnia kompleksowe szkolenia, które pomogą w płynnym zaadoptowaniu się w Polsce. Prowadzimy szkolenia m.in. z zakresu skutecznego znalezienia i podjęcia pracy i wielu innych."
                 mb="44px"
               />
-              <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
+              <div className="mb-12 max-w-[570px]" data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Kurs języka polskiego" />
@@ -49,6 +50,7 @@ export default function Page() {
                 </div>
               </div>
             </div>
+            {/* Prawa kolumna z obrazkiem */}
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
