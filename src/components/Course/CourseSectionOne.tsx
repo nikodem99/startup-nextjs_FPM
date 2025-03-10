@@ -26,21 +26,21 @@ const CourseSectionOne = () => {
             {/* Lewa kolumna – tekst */}
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Kursy"
-                paragraph="Oferujemy różnorodne kursy, które pomogą Ci zdobyć nowe umiejętności i rozwinąć karierę zawodową. Nasze kursy prowadzone są przez ekspertów z branży."
+                title="Szkolenia"
+                paragraph="Fundacja zapewnia kompleksowe szkolenia, które pomogą w płynnej adaptacji oraz skutecznym odnalezieniu się na polskim rynku pracy. Prowadzimy kursy językowe oraz warsztaty praktyczne zwiększające szanse na zatrudnienie."
                 mb="44px"
               />
               <div className="mb-12 max-w-[570px]" data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Kurs języka angielskiego" />
-                    <List text="Kurs programowania w JavaScript" />
-                    <List text="Kurs projektowania graficznego" />
+                    <List text="Kurs języka polskiego" />
+                    <List text="Zasady funkcjonowania polskiego rynku pracy" />
+                    <List text="Profesjonalne tworzenie CV" />
                   </div>
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Kursy z marketingu internetowego" />
-                    <List text="Kursy z zakresu zarządzania projektami" />
-                    <List text="Kursy kreatywnego pisania" />
+                    <List text="Przygotowanie do rozmowy z pracodawcą" />
+                    <List text="Szkolenie z przebiegu rozmowy kwalifikacyjnej" />
+                    <List text="Zasady pisania maili służbowych po polsku" />
                   </div>
                 </div>
               </div>

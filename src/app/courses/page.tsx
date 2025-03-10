@@ -1,6 +1,6 @@
-
-
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import CourseSectionOne from "@/components/Course/CourseSectionOne";
+import CourseSectionTwo from "@/components/Course/CourseSectionTwo";
 
 import { Metadata } from "next";
 
@@ -17,7 +17,8 @@ const AboutPage = () => {
         pageName=""
         description=""
       />
-
+  <CourseSectionOne/>
+  <CourseSectionTwo/>
     </>
   );
 };

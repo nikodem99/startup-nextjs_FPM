@@ -31,7 +31,7 @@ export default function Page() {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="O nas"
-                paragraph="Fundacja zapewnia kompleksowe szkolenia, które pomogą w płynnym zaadoptowaniu się w Polsce. Prowadzimy szkolenia m.in. z zakresu skutecznego znalezienia i podjęcia pracy i wielu innych."
+                paragraph="Fundacja powstała z myślą o wspieraniu osób, które zdecydowały się na rozpoczęcie nowego etapu życia w Polsce. Naszym głównym celem jest ułatwienie procesu adaptacji poprzez kompleksowe szkolenia, praktyczne warsztaty oraz doradztwo zawodowe, które pozwalają szybciej odnaleźć się w nowym miejscu. Pomagamy nie tylko w skutecznym poszukiwaniu pracy, ale również w integracji społecznej oraz zbudowaniu poczucia przynależności do lokalnej społeczności."
                 mb="44px"
               />
               <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">

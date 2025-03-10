@@ -31,26 +31,26 @@ const AdditionalSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Pomoc w znalezieniu zakwaterowania
+                Pomoc w uzyskaniu karty pobytu
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Fundacja współpracuje z przedsiębiorcami na terenie całego kraju, którzy posiadają liczne miejsca do zamieszkania. Pomożemy w znalezieniu odpowiedniego miejsca zamieszkania oraz zorganizujemy bezpieczny transport.
+                Karta pobytu to kluczowy dokument pozwalający cudzoziemcom na legalny, długoterminowy pobyt w Polsce oraz swobodne przekraczanie granicy bez konieczności posiadania wizy. Fundacja zapewnia kompleksowe wsparcie na każdym etapie tego procesu: pomożemy przygotować wymagane dokumenty, wskażemy odpowiedni urząd oraz wyjaśnimy, jak skutecznie przejść przez całą procedurę.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Wsparcie i opieka w życiu codziennym
+                Wsparcie w uzyskaniu zezwolenia na pracę
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Fundacja jest otwarta na pytania ze strony potrzebujących oraz pomaga w rozwiązaniu bieżących problemów. Wystarczy skontaktować się z opiekunem, a z pewnością doradzi, co robić w nowych sytuacjach.
+                Oferujemy profesjonalne doradztwo w uzyskaniu zezwolenia na pracę, dzięki któremu cudzoziemcy mogą legalnie podjąć zatrudnienie w Polsce. Doradzamy zarówno pracownikom, jak i pracodawcom, pomagając w prawidłowym dopełnieniu formalności oraz zapewniając szczegółowe informacje dotyczące różnych typów zezwoleń zgodnych ze specyfiką danego zatrudnienia.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Szkolenia zawodowe
+                Pomoc w kontaktach z urzędami
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Fundacja zapewnia kompleksowe szkolenia, które pomogą w płynnym zaadoptowaniu się w Polsce. Prowadzimy szkolenia m.in. z zakresu skutecznego znalezienia i podjęcia pracy oraz wielu innych.
+                Nasi specjaliści zapewniają wsparcie w komunikacji i kontakcie z urzędami. Pomagamy naszym podopiecznym w sprawnym uzyskaniu numeru PESEL, w załatwieniu wszelkich formalności administracyjnych, a także podpowiadamy, jak najlepiej przygotować się do wizyt w instytucjach publicznych, minimalizując stres oraz potencjalne trudności językowe.
                 </p>
               </div>
             </div>

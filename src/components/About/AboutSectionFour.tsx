@@ -48,26 +48,26 @@ const AboutSectionFour = () => {
               <div className="max-w-[470px]">
                 <div className="mb-9">
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Pomoc w znalezieniu zakwaterowania
+                  Wsparcie prawne i administracyjne
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Fundacja współpracuje z przedsiębiorcami na terenie całego kraju, którzy posiadają liczne miejsca do zamieszkania. Pomożemy w znalezieniu odpowiedniego miejsca zamieszkania oraz zorganizujemy bezpieczny transport.
+                  Fundacja zapewnia profesjonalne wsparcie prawne i administracyjne osobom, które postanowiły osiedlić się w Polsce. Pomagamy w załatwieniu wszelkich formalności, w tym wypełnieniu dokumentów, uzyskaniu zezwoleń oraz innych kwestiach urzędowych, które mogą być trudne dla osób dopiero poznających polskie realia.
                   </p>
                 </div>
                 <div className="mb-9">
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Wsparcie i opieka w życiu codziennym
+                  Integracja społeczna i kulturowa
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Fundacja jest otwarta na pytania ze strony potrzebujących oraz pomaga w rozwiązaniu bieżących problemów. Wystarczy skontaktować się z opiekunem, a z pewnością doradzi, co robić w nowych sytuacjach.
+                  Dbamy o komfort i szybką integrację społeczną wszystkich osób, które zdecydują się na życie w Polsce. Organizujemy spotkania integracyjne, warsztaty kulturowe oraz wydarzenia społeczne, dzięki którym nasi podopieczni szybciej adaptują się do nowych warunków i budują relacje z lokalną społecznością.
                   </p>
                 </div>
                 <div className="mb-1">
                   <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                    Szkolenia zawodowe
+                  Doradztwo zawodowe i mentoring
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    Fundacja zapewnia kompleksowe szkolenia, które pomogą w płynnym zaadoptowaniu się w Polsce. Prowadzimy szkolenia m.in. z zakresu skutecznego znalezienia i podjęcia pracy oraz wielu innych.
+                  Nasza Fundacja oferuje również doradztwo zawodowe i indywidualny mentoring dla osób szukających zatrudnienia lub pragnących rozwijać swoją karierę w Polsce. Dzięki naszym specjalistom z różnych branż podopieczni mogą skutecznie zaplanować ścieżkę zawodową oraz zyskać pewność siebie na rynku pracy.
                   </p>
                 </div>
               </div>

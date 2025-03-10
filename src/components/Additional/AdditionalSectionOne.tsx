@@ -30,21 +30,21 @@ export default function AdditionalSectionOne() {
             {/* Lewa kolumna – tekst i lista */}
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Pomoc prawna"
-                paragraph="Fundacja zapewnia kompleksowe szkolenia, które pomogą w płynnym zaadoptowaniu się w Polsce. Prowadzimy szkolenia m.in. z zakresu skutecznego znalezienia i podjęcia pracy oraz wielu innych."
+                title="Pomoc prawna w legalizacji pobytu i pracy"
+                paragraph="Fundacja oferuje wsparcie prawne dla cudzoziemców, którzy chcą zalegalizować swój pobyt oraz podjąć legalną pracę na terenie Polski. Nasi specjaliści pomogą Ci zrozumieć cały proces, wypełnić dokumenty i sprawnie przejść przez procedury urzędowe, abyś mógł szybko poczuć się bezpiecznie w nowym miejscu."
                 mb="44px"
               />
               <div className="mb-12 max-w-[570px]" data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Kurs języka polskiego" />
-                    <List text="Zasady polskiego rynku pracy" />
-                    <List text="Kursy pisania CV" />
+                    <List text="Pomoc w uzyskaniu karty pobytu" />
+                    <List text="Uzyskanie numeru PESEL" />
+                    <List text="Przygotowanie dokumentów pobytowych" />
                   </div>
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Wskazówki w rozmowach z pracodawcą" />
-                    <List text="Przebieg rozmowy kwalifikacyjnej" />
-                    <List text="Zasady tworzenia maili" />
+                    <List text="Wsparcie w otrzymaniu zezwolenia na pracę" />
+                    <List text="Konsultacje prawne z ekspertami" />
+                    <List text="Pomoc w kontaktach z urzędami" />
                   </div>
                 </div>
               </div>
