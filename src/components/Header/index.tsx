@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
-import logoPoprawne from "src/assets/logo poprawne.svg"; // Twoje logo
+import logoPoprawne from "../..//../public/images/header/logo poprawne.svg";
 
 const Header = () => {
   // Navbar toggle
