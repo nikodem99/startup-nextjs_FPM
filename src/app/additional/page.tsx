@@ -1,11 +1,13 @@
-import AboutSectionFive from "@/components/About/AboutSectionFive";
+
 import AboutSectionFour from "@/components/About/AboutSectionFour";
+import AdditionalSectionOne from "@/components/Additional/AdditionalSectionOne";
+import AdditionalSectionTwo from "@/components/Additional/AdditionalSectionTwo";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "O Nas | Fundacja pomagamy cudzoziemcom",
+  title: "Pomoc prawna | Fundacja pomagamy cudzoziemcom",
   description: "This is About Page for Startup Nextjs Template",
   // other metadata
 };
@@ -17,8 +19,8 @@ const AboutPage = () => {
         pageName=""
         description=""
       />
-      <AboutSectionFive/>
-
+    <AdditionalSectionOne/>
+    <AdditionalSectionTwo/>
     </>
   );
 };
