@@ -8,7 +8,7 @@ const testimonialData: Testimonial[] = [
     name: "Musharof Chy",
     designation: "",
     content:
-      "Szkolenia zawodowe oferowane przez fundację pomogły mi zdobyć nowe kwalifikacje i pewność siebie na polskim rynku pracy.",
+      "Szkolenia zawodowe oferowane przez fundację pomogły mi zdobyć nowe kwalifikacje i pewność siebie na polskim rynku pracy.”",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -17,7 +17,7 @@ const testimonialData: Testimonial[] = [
     name: "Devid Weilium",
     designation: "",
     content:
-      "Dzięki fundacji szybko nauczyłam się języka polskiego, co pomogło mi w znalezieniu pracy i lepszym zrozumieniu polskiej kultury.",
+      "Dzięki fundacji szybko nauczyłam się języka polskiego, co pomogło mi w znalezieniu pracy i lepszym zrozumieniu polskiej kultury.”",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
@@ -25,7 +25,7 @@ const testimonialData: Testimonial[] = [
     id: 3,
     name: "Lethium Frenci",
     designation: "",
-    content: "Wsparcie fundacji było nieocenione w procesie adaptacji w Polsce. Pomogli mi w znalezieniu mieszkania i załatwieniu wszystkich formalności.",
+    content: "Wsparcie fundacji było nieocenione w procesie adaptacji w Polsce. Pomogli mi w znalezieniu mieszkania i załatwieniu formalności.”",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },

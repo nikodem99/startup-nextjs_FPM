@@ -27,8 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                Pomagamy cudzoziemcom w stawianiu pierwszych kroków po przyjeździe do Polski.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -112,15 +111,23 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                Przydatne linki
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      O nas
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/contact"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                      Kontakt
                     </Link>
                   </li>
                   <li>
@@ -128,15 +135,7 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      About
+                      Home
                     </Link>
                   </li>
                 </ul>
@@ -146,31 +145,31 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                Informacje
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/conditionsOfService"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Warunki usług
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/privacy-policy"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Privacy Policy
+                      Polityka Prywatnosci
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/regulations"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Regulamin
                     </Link>
                   </li>
                 </ul>
@@ -180,7 +179,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Pomoc
                 </h2>
                 <ul>
                   <li>
@@ -188,7 +187,7 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      Pomoc techniczna
                     </Link>
                   </li>
                   <li>
@@ -196,7 +195,6 @@ const Footer = () => {
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Terms of Use
                     </Link>
                   </li>
                   <li>
@@ -204,7 +202,6 @@ const Footer = () => {
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
                     </Link>
                   </li>
                 </ul>
@@ -215,23 +212,23 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
+              Create{" "}
               <a
-                href="http://uideck.com"
+                href="https://www.chaoticshapes.pl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                UIdeck
+                website
               </a>{" "}
-              and{" "}
+              by{" "}
               <a
-                href="https://nextjstemplates.com"
+                href="https://www.chaoticshapes.pl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                Next.js Templates
+                Chaotic Shapes
               </a>
             </p>
           </div>
