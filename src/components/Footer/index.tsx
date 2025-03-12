@@ -45,6 +45,15 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
+                      href="/"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
+                             Home
+                      
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       href="/about"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
@@ -57,14 +66,6 @@ const Footer = () => {
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Kontakt
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Home
                     </Link>
                   </li>
                 </ul>
@@ -82,6 +83,14 @@ const Footer = () => {
                       href="/conditionsOfService"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
+                      Regulamin
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/regulations"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                    >
                       Warunki usług
                     </Link>
                   </li>
@@ -91,14 +100,6 @@ const Footer = () => {
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Polityka Prywatności
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/regulations"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Regulamin
                     </Link>
                   </li>
                 </ul>

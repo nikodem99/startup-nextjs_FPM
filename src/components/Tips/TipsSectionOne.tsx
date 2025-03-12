@@ -9,6 +9,7 @@ const checkIcon = (
 );
 
 const TipsSectionOne = () => {
+  // Komponent pojedynczego elementu listy
   const List = ({ text }: { text: string }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
@@ -49,13 +50,13 @@ const TipsSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/tips/tips-image.svg"
+                  src="/images/tips/jpg fundacji2.jpg"
                   alt="tips image"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/tips/tips-image-dark.svg"
+                  src="/images/tips/jpg-fundacji2.jpg"
                   alt="tips image"
                   fill
                   className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
