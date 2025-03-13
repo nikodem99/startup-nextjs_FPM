@@ -8,7 +8,7 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
+  const List = ({ text }: { text: string }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
         {checkIcon}
@@ -29,21 +29,18 @@ const AboutSectionOne = () => {
                 mb="44px"
               />
 
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
+              <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Kurs języka polskiego" />
                     <List text="Zasady polskiego rynku pracy" />
-                    <List text="Kursy pisania CV"/>
+                    <List text="Kursy pisania CV" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Wskazówki w rozmowach z pracodawcą"/>
-                    <List text="Przebieg rozmowy kwalifikacyjnej"/>
-                    <List text="Zasady tworzenia maili"/>
+                    <List text="Wskazówki w rozmowach z pracodawcą" />
+                    <List text="Przebieg rozmowy kwalifikacyjnej" />
+                    <List text="Zasady tworzenia maili" />
                   </div>
                 </div>
               </div>
@@ -51,18 +48,22 @@ const AboutSectionOne = () => {
 
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
+                {/* Używamy nowego obrazka z folderu "course" */}
                 <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
+                  src="/images/course/course1.svg"
+                  alt="Course illustration"
                   fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto max-w-full drop-shadow-three lg:mr-0"
                 />
-                <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
-                />
+                {/*
+                  Jeśli chcesz oddzielną wersję dla trybu ciemnego, możesz dodać:
+                  <Image
+                    src="/images/course/course1.svg"
+                    alt="Course illustration dark"
+                    fill
+                    className="mx-auto hidden max-w-full drop-shadow-three dark:block lg:mr-0"
+                  />
+                */}
               </div>
             </div>
           </div>

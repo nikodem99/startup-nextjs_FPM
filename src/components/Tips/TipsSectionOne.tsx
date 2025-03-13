@@ -50,7 +50,7 @@ const TipsSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/tips/jpg fundacji2.jpg"
+                  src="/images/tips/jpg-fundacji2.jpg"
                   alt="tips image"
                   fill
                   className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"

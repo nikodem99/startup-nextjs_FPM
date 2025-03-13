@@ -2,31 +2,27 @@ import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
 
+// Zmodyfikowana tablica - usunięte "image" i "designation"
 const testimonialData: Testimonial[] = [
   {
     id: 1,
     name: "Musharof Chy",
-    designation: "",
     content:
-      "Szkolenia zawodowe oferowane przez fundację pomogły mi zdobyć nowe kwalifikacje i pewność siebie na polskim rynku pracy.”",
-    image: "/images/testimonials/auth-01.png",
+      "Szkolenia zawodowe oferowane przez fundację pomogły mi zdobyć nowe kwalifikacje i pewność siebie na polskim rynku pracy.",
     star: 5,
   },
   {
     id: 2,
     name: "Devid Weilium",
-    designation: "",
     content:
       "Dzięki fundacji szybko nauczyłam się języka polskiego, co pomogło mi w znalezieniu pracy i lepszym zrozumieniu polskiej kultury.”",
-    image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
     name: "Lethium Frenci",
-    designation: "",
-    content: "Wsparcie fundacji było nieocenione w procesie adaptacji w Polsce. Pomogli mi w znalezieniu mieszkania i załatwieniu formalności.”",
-    image: "/images/testimonials/auth-03.png",
+    content:
+      "Wsparcie fundacji było nieocenione w procesie adaptacji w Polsce. Pomogli mi w znalezieniu mieszkania i załatwieniu wszystkich formalności.",
     star: 5,
   },
 ];
@@ -47,6 +43,8 @@ const Testimonials = () => {
           ))}
         </div>
       </div>
+
+      {/* --- Poniżej pozostawione tylko ozdobne SVG, jeśli niepotrzebne - usuń je całkiem --- */}
       <div className="absolute right-0 top-5 z-[-1]">
         <svg
           width="238"
@@ -101,6 +99,7 @@ const Testimonials = () => {
           </defs>
         </svg>
       </div>
+
       <div className="absolute bottom-5 left-0 z-[-1]">
         <svg
           width="279"
